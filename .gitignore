@@ -1,0 +1,20 @@
+# Virtual environment
+.venv/
+
+# Python temporary files
+__pycache__/
+*.py[cod]
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Raw and processed datasets
+data/raw/*
+data/processed/*
+
+# Keep the data directories in Git
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Editor settings
+.vscode/
